@@ -1,0 +1,8 @@
+@extends('layouts.app', ['title' => 'HCBP Area 3 Apps - Admin Area'])
+
+@section('content')
+<div class="bg-white border border-slate-200 rounded-2xl p-8">
+  <h1 class="text-2xl font-bold">Dashboard Admin Area</h1>
+  <p class="mt-2 text-slate-500">Selamat datang, {{ auth()->user()->nama }}.</p>
+</div>
+@endsection
